@@ -1,0 +1,93 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main-container{
+    margin-top: 8px;
+    margin-left: 60%;
+}
+
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%);
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lora', serif;
+    font-weight: 400, 500, 600, 700;
+    font-size: 16px;
+}
+
+.wrapper{
+    display: inline-block;
+    width: 340px;
+    /* margin-left: 50%; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.heading1{
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+.heading1 p{
+    color: white;
+    font-family: "Poppins";
+    margin-top: 5px;
+}
+h1{
+    color: white;
+   
+    
+}
+form{
+    margin-left: 7px;
+}
+form div{
+    width: 284px;
+}
+form input{
+    margin-bottom: 12px;
+    width: 290px;
+    padding: 13px 7px;
+    border: 1px solid grey;
+    outline: black;
+    border-radius: 3px;
+}
+.blue-btn{
+    /* margin-left: 50%; */
+    /* margin-top: 10%; */
+    margin-bottom: 10px;
+    width: 340px; 
+    box-shadow:0 6px 10px -5px;
+    
+}
+.blue-btn button{
+    width: 340px;
+    background-color: hsl(248, 32%, 49%);
+}
+form p{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 7px;
+    color: hsl(246, 25%, 77%);
+}
+form p b{
+    color: hsl(0, 100%, 74%);
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 284px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0px 0px rgba(0, 244, 16, 0.1);;
+}
